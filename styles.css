@@ -1,0 +1,323 @@
+body {
+    font-family: 'Sansita', sans-serif;
+    color: #fafeff;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin: 0;
+}
+ul, ol{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+a{
+    text-decoration: none;
+    color: #fafeff;
+}
+.content {
+    position: relative;
+}
+.circle-svg-left {
+    position: absolute;
+    left: -150px;
+    top: -75px;
+    fill: #fafeff;
+}
+
+.circle-svg-right {
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    position: absolute;
+    right: 0px;
+    bottom:0;
+    fill: #fafeff;   
+}
+
+.left-side {
+    width: 100%;
+    height: 100%;
+    background-color: #602e17;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.hero {
+    text-align: center;
+}
+.image-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 290px;
+    height: 290px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 4px dotted #fafeff;
+    margin-bottom: 30px;
+}
+.image {
+    width: 260px;
+    height: 260px;
+    margin: 0 auto;
+    border-radius: 50%;
+    background-color: #e2ad6b;
+    background-image: url('./images/my_photo-removebg-preview.png');
+    background-size: cover;
+    
+}
+.flag-svg {
+    fill: #e2ad6b;
+}
+.hero h1 {
+    margin-bottom: 16px;
+    font-size: 30px;    
+    line-height: normal;
+    font-weight: 800;
+}
+.hero p {
+    font-size: 24px;
+    line-height: normal;
+    font-weight: 700;
+}
+.skills {
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.title-container {
+    margin: 0 auto;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 20px;
+    max-width: 200px;
+    background-color: #e2ad6b;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    margin-bottom: 20px;
+}
+.title {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #2b1b10;
+}
+.skills-container {
+    max-width: 100px;
+    margin: 0 auto;
+}
+.skills-container li:not(:last-child) {
+    margin-bottom: 10px;
+}
+.skills-container p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: normal;
+}
+.skills-list {
+    list-style: disc;
+}
+.contact {
+    padding-bottom: 50px;
+}
+.contact-container {
+    max-width: 210px;
+    margin: 0 auto;
+}
+.contact-list {
+    text-decoration: none;
+}
+.contact-list-item {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    line-height: normal;
+        &:not(:last-child) {
+            margin-bottom: 10px;
+        }
+}
+.contact-item-svg-container {
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fafeff;
+    fill: #602e17;     
+}
+.contact-list-link:hover {
+     color: #e2ad6b;
+}
+.right-side {
+    background-color: #2b1b10;
+}
+.profile {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.title-container-dark {
+    margin: 0 auto;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 20px;
+    max-width: 200px;
+    background-color: #c67e50;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    margin-bottom: 20px;
+}
+.title-dark {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+.profile-text-container {
+    max-width: 300px;
+    margin: 0 auto;
+}
+.profile-text {
+    font-size: 16px;
+    line-height: 1.5;
+}
+.education {
+    padding-top: 50px;
+}
+.education,
+.experience,
+.qualities,
+.hobbies {
+    padding-bottom: 50px;
+}
+.education-list,
+.experience-list {
+    max-width: 300px;
+    margin: 0 auto;
+}
+.education-list-item:not(:last-child) {
+    margin-bottom: 10px;
+}
+.education-list-title {
+    font-size: 18px;
+        &:not(:last-child){
+        margin-bottom: 10px;
+        }
+    
+}
+.courses-text {
+    padding-left: 10px;
+    margin-bottom: 4px;
+}
+.courses-list {
+    padding-left: 60px;
+}
+.experience-list {
+    max-width: 300px;
+    margin: 0 auto;
+}
+.experience-list-title {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+.pet-projects-list-item:not(:last-child) {
+    margin-bottom: 10px;
+}
+.qualities-list,
+.hobbies-list {
+    max-width: 300px;
+    margin: 0 auto;
+    list-style: disc;
+    padding-left: 60px;
+}
+.hobbies-list-item,
+.qualities-list-item:not(:last-child){
+    margin-bottom: 4px;
+}
+@media screen and (min-width: 1024px) {
+    .content {
+        display: flex;
+        z-index: 2;
+    }
+    .left-side {
+        width: 45%;
+        position: relative;
+        z-index: 2;
+    }
+    .right-side {
+    width: 55%;
+    }
+    .profile-text-container {
+        margin-top: 40px;
+    }
+    .right-side {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .education,
+    .experience,
+    .qualities,
+    .hobbies {
+        padding-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        position: relative;
+    }
+    .title-container-dark {
+        transform: rotate(270deg);
+        width: 100%;
+        height: 120px;
+        margin: 0;
+        position: absolute;
+        left: -110px;
+        padding-top: 80px;
+        border-radius: 40px;
+        z-index: 1;
+        padding-bottom: 0;
+        margin-right: 600px;
+    }
+    .education-list,
+    .experience-list,
+    .qualities-list,
+    .hobbies-list  {
+        margin: 0;
+        padding-left: 0;
+        margin-left: 200px;
+    }
+    .circle-svg-right {
+    width: 360px;
+    height: 360px;  
+    }
+    .circle-svg-left {
+        width: 300px;
+        height: 300px;
+    left: -160px;
+    top: -100px;
+    z-index: 3;
+}
+
+
+}
+
+
+/* @media screen and (min-width: 480px) {
+    .container {
+        width: 480px;  
+        margin: 0 auto;            
+    }
+    
+}
+@media screen and (min-width: 768px) {
+    .container{
+        width: 768px;
+    }
+    
+}
+@media screen and (min-width: 1200px) {
+    .container{
+        width: 1200px;
+    }
+} */
