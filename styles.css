@@ -22,6 +22,18 @@ a{
 .content {
     position: relative;
 }
+.left-side {
+    width: 100%;
+    height: 100%;
+    background-color: #602e17;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+.right-side {
+    background-color: #2b1b10;
+}
+/* ================ SVG ================ */
 .circle-svg-left {
     position: absolute;
     left: -150px;
@@ -38,15 +50,9 @@ a{
     bottom:0;
     fill: #fafeff;   
 }
+/* ============== END SVG ============== */
 
-.left-side {
-    width: 100%;
-    height: 100%;
-    background-color: #602e17;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    
-}
+/* ================ HERO ================ */
 .hero {
     text-align: center;
 }
@@ -71,9 +77,6 @@ a{
     background-size: cover;
     
 }
-.flag-svg {
-    fill: #e2ad6b;
-}
 .hero h1 {
     margin-bottom: 16px;
     font-size: 30px;    
@@ -85,10 +88,9 @@ a{
     line-height: normal;
     font-weight: 700;
 }
-.skills {
-    padding-top: 50px;
-    padding-bottom: 25px;
-}
+/* =============== END HERO ============== */
+
+/* ================ TITLE ================ */
 .title-container {
     margin: 0 auto;
     padding-top: 6px;
@@ -105,6 +107,43 @@ a{
     font-weight: 700;
     color: #2b1b10;
 }
+.title-container-dark {
+    margin: 0 auto;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 20px;
+    max-width: 200px;
+    background-color: #c67e50;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    margin-bottom: 20px;
+}
+.title-dark {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+/* ============== END TITLE ============== */
+
+/* ================ PROFILE ================ */
+.profile {
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+.profile-text-container {
+    max-width: 300px;
+    margin: 0 auto;
+}
+.profile-text {
+    font-size: 16px;
+    line-height: 1.5;
+}
+/* ============== END PROFILE ============== */
+
+/* ================ SKILLS ================ */
+.skills {
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
 .skills-container {
     max-width: 100px;
     margin: 0 auto;
@@ -120,9 +159,9 @@ a{
 .skills-list {
     list-style: disc;
 }
-/* .contact {
-    padding-bottom: 25px;
-} */
+/* ============== END SKILLS ============== */
+
+/* ================ CONTACT ================ */
 .contact-container {
     max-width: 210px;
     margin: 0 auto;
@@ -157,44 +196,18 @@ a{
         color: #e2ad6b;
         }
 }
-.right-side {
-    background-color: #2b1b10;
-}
-.profile {
-    padding-top: 25px;
-    padding-bottom: 50px;
-}
-.title-container-dark {
-    margin: 0 auto;
-    padding-top: 6px;
-    padding-bottom: 6px;
-    border-radius: 20px;
-    max-width: 200px;
-    background-color: #c67e50;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-    margin-bottom: 20px;
-}
-.title-dark {
-    text-align: center;
-    font-size: 24px;
-    font-weight: 700;
-}
-.profile-text-container {
-    max-width: 300px;
-    margin: 0 auto;
-}
-.profile-text {
-    font-size: 16px;
-    line-height: 1.5;
-}
-.education {
-    padding-top: 50px;
-}
+/* ============== END CONTACT ============== */
+
 .education,
 .experience,
 .qualities,
 .hobbies {
     padding-bottom: 50px;
+}
+
+/* ============== EDUCATION ============== */
+.education {
+    padding-top: 50px;
 }
 .education-list,
 .experience-list {
@@ -217,6 +230,9 @@ a{
 .courses-list {
     padding-left: 60px;
 }
+/* ============ END EDUCATION ============ */
+
+/* ============ EXPIRIENCE ============ */
 .experience-list {
     max-width: 300px;
     margin: 0 auto;
@@ -246,6 +262,12 @@ a{
             color: #e2ad6b;
         }
 }
+.pet-projects-list-item-span {
+    text-decoration: underline;
+}
+/* ========== END EXPIRIENCE ========== */
+
+/* ========== QUALITIES ========== */
 .qualities-list {
     width: 140px;
     margin: 0 auto;
@@ -261,8 +283,11 @@ a{
             border-radius: 50%;
             background-color: #fafeff;
             margin-right: 6px;
-        }
+            }
 }
+/* ======== END QUALITIES ======== */
+
+/* ========== HOBBIES ========== */
 .hobbies-list {
     margin: 0 auto;
     width: 120px;
@@ -291,6 +316,8 @@ a{
 .qualities-list-item:not(:last-child){
     margin-bottom: 4px;
 }
+/* ======== END HOBBIES ======== */
+
 @media screen and (min-width: 1024px) {
     .content {
         display: flex;
@@ -369,27 +396,5 @@ a{
     left: -160px;
     top: -100px;
     z-index: 3;
-}
-
-
-}
-
-
-/* @media screen and (min-width: 480px) {
-    .container {
-        width: 480px;  
-        margin: 0 auto;            
     }
-    
 }
-@media screen and (min-width: 768px) {
-    .container{
-        width: 768px;
-    }
-    
-}
-@media screen and (min-width: 1200px) {
-    .container{
-        width: 1200px;
-    }
-} */
