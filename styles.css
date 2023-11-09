@@ -235,7 +235,7 @@ a{
 
 /* ============ EXPIRIENCE ============ */
 .experience-list {
-    max-width: 300px;
+    max-width: 330px;
     margin: 0 auto;
 }
 .experience-list-link {
@@ -367,6 +367,7 @@ a{
         padding-bottom: 0;
         margin-right: 600px;
     }
+    
     .education .title-container-dark {
         min-width: 300px;
         left: -160px;
